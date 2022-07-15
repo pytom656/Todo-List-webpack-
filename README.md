@@ -8,8 +8,11 @@ The bundled main.js file in the DIST folder uses index.js in the SRC folder as t
 -To run this locally, add these files to a new_directory. Type in the commandline:
 
 mkdir new_directory
+
 cd new_directory
+
 npm init -y
+
 npm install webpack webpack-cli --save-dev
 
 
