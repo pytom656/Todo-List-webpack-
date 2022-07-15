@@ -1,0 +1,67 @@
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-red {
+  border-top: 1px solid red;
+}
+
+.outer-card {
+  max-width: 25rem;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.top {
+  padding: 40px;
+  padding-bottom: 0;
+}
+.top h1 {
+  text-align: center;
+}
+
+.card {
+  padding: 40px;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 10px;
+}
+
+.card h1 {
+  text-align: center;
+}
+form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-left: 1em;
+}
+
+.todo-li,
+.done-li {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  column-gap: 10px;
+  margin-bottom: 1rem;
+  border-top: 1px gray dashed;
+  padding-top: 5px;
+}
+
+.done-li {
+  color: rgb(150, 151, 152);
+}
+.done-li button {
+  text-decoration: none;
+}
+
+li button {
+  height: 2rem;
+  width: 6rem;
+}
+
+form button {
+  height: 2rem;
+  width: 6rem;
+}
